@@ -1,0 +1,5 @@
+num1_str = input("Enter the 1 number: ")
+num2_str = input("Enter the 2 number: ")
+num3_str = input("Enter the 3 number: ")
+max_number = max(int(num1_str), int(num2_str), int(num3_str))
+print(f"The maximum number among, {num1_str}, {num2_str} and  {num3_str} is  {max_number}")
