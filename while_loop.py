@@ -49,4 +49,12 @@ for i in range(1, n+1):
    fact_result = fact_result * i
    print(f"{fact_result}")
 """
-
+"""""
+Numbers = input("enter any number:")
+if (float(Numbers) % 2 == 0):
+     print(f"{Numbers} is even")
+else:
+     print("No is odd")
+     """
+for i in range (1, 6):
+  print(" " * (5 - i)  + "*" * (2*i - 1))
